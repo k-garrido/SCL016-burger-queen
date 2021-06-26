@@ -1,0 +1,135 @@
+{
+  "bebestibles": [{
+      "id": 1,
+      "name": "Pisco Sour y variedades",
+      "price": 3500,
+      "option": [{
+          "id": "1a",
+          "name": "Pisco Sour Pimentón"
+        },
+        {
+          "id": "1b",
+          "name": "Pisco Sour Peruano"
+        },
+        {
+          "id": "1c",
+          "name": "Pisco Sour Jengibre"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Mojito",
+      "price": 3500
+    },
+    {
+      "id": 3,
+      "name": "Sangria",
+      "price": 3200
+    },
+    {
+      "id": 4,
+      "name": "Schop 500 CC",
+      "price": 3500
+    },
+    {
+      "id": 5,
+      "name": "Copa de Vino Reserva",
+      "price": 3000
+    },
+    {
+      "id": 6,
+      "name": "Botella de Vino Reserva",
+      "price": 10000
+    },
+    {
+      "id": 7,
+      "name": "Bebidas",
+      "price": 1600,
+      "option": [{
+          "id": "7a",
+          "name": "CocaCola"
+        },
+        {
+          "id": "7b",
+          "name": "Sprite"
+        },
+        {
+          "id": "7c",
+          "name": "Fanta"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Jugo Natural",
+      "price": 2800
+    },
+    {
+      "id": 9,
+      "name": "Agua Mineral",
+      "price": 1200
+    },
+    {
+      "id": 10,
+      "name": "Café",
+      "price": 1800
+    }, {
+      "id": 11,
+      "name": "Té",
+      "price": 1200
+    }
+
+  ],
+  "comida": [{
+      "id": 12,
+      "name": "Ostiones a la parmesana",
+      "price": 9500
+    },
+    {
+      "id": 13,
+      "name": "Ceviche",
+      "price": 9900
+    },
+    {
+      "id": 14,
+      "name": "Camarones al Pil Pil",
+      "price": 9500
+    },
+    {
+      "id": 15,
+      "name": "Filete Meridian",
+      "price": 13500
+    },
+    {
+      "id": 16,
+      "name": "Lomo Valdiviano",
+      "price": 11900
+    },
+    {
+      "id": 17,
+      "name": "Mechada de la abuela",
+      "price": 9800
+    },
+    {
+      "id": 18,
+      "name": "Salmón a la Vasca",
+      "price": 9800
+    },
+    {
+      "id": 19,
+      "name": "Papas Bravas",
+      "price": 3500
+    },
+    {
+      "id": 20,
+      "name": "Papas Finas Hierbas",
+      "price": 2500
+    },
+    {
+      "id": 21,
+      "name": "Ensaladas",
+      "price": 2500
+    }
+  ]
+}
