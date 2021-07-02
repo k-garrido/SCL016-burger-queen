@@ -1,0 +1,38 @@
+.states{
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-top: 3% ;
+}
+    .stateContainer{
+        display: flex;
+        flex-flow: row wrap;    
+        margin-top: 1%;
+    }
+        .stateMainTitle{
+            color: white;
+            text-align: center;
+            margin: 0%;
+        }
+            .stateTitle{
+                text-align: center;
+                color: white;
+                font-family: Aleo-Bold;
+                font-size: 1.6vh;
+                margin: 0;
+                -webkit-text-stroke: black;
+                -webkit-text-stroke-width: 0.5px; 
+                
+            }
+            .state{
+                display: flex;
+                flex-flow: row wrap;
+                flex-basis: auto;
+                width: 47%;
+                margin: 0.1% 0%;
+            }
+            .stateImg{
+                width: 9%;
+                height: 3vh;
+                margin: 0% 3%;
+
+                }
+            

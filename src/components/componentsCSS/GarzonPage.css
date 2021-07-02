@@ -1,0 +1,79 @@
+.garzonContainer{
+    display: flex;
+    flex-flow: column nowrap;
+    width:100%;
+    height: 100vh;
+    background-image: url(../images/woodBG.jpg);
+    background-size: cover;
+}
+.containerHeader{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    width: auto;
+    padding: 2%;
+}
+    .miniLogo{
+        width: 15%;
+        border-radius: 100%;
+        border: 4px solid white;
+        margin: 1%;
+        height: 80%;   
+    }
+    .ancla{
+        width: 48%;
+        height: 10vw;
+        margin: 4% 4% 1% 4%;
+    }
+        .headerBttn{ 
+            width: 100%;
+            height: 9vh;
+            background-color: #A43030;  
+            border-radius: 10px;
+            font: 4.3vw Aleo-BoldItalic;
+            color: white;
+        }
+    .returnArrow{
+        width: 8%;
+        height: 6vh;
+        margin: 2% 1% 0% 1%;
+    }
+.secondDiv{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    margin: 0% 4%;
+}
+    .subtitle{
+        color: white;
+        font-family: Aleo-Bold;
+        font-size: 5vw;
+           
+    }
+    .filterDiv{
+        margin: 5% 0%;
+        width: 27%;
+        height: 3vh;
+        background-color: white;
+        border-radius: 5px;
+        border: 2px solid black;
+        font-family: Aleo-Bold;
+        font-size: 3vw;
+        text-align: start;
+        background-image: url(../images/downArrow.png);
+        background-repeat: no-repeat;
+        background-position-x:95%;
+        background-position-y: 55%;
+        background-size: 10%;         
+    }
+.pendingOrders{
+    display: flex;
+    flex-flow: row nowrap;
+    background-color: white;
+    width: 100%;
+    height: 56vh;
+}
+
+        
+
+    

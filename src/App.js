@@ -1,12 +1,29 @@
-import React from 'react';
-import './App.css'; 
+import React from "react";
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import data from "./menu.json";
+import MainPage from "./components/mainPage/MainPage";
+import GarzonPage  from "./components/garzonView/GarzonPage"
+import ComandaPage  from "./components/comandaView/ComandaPage"
 
-class App extends React.Component {
-  render () {
-    return <h1>Hello world</h1>
-    
-  }
+function App() {
+  return (
+    <Router>
+      <Switch>
+        <Route path="/Comanda">
+          <ComandaPage />
+        </Route>
+        <Route path="/cocina">
+          <h1>Pagina de cocina</h1>
+        </Route>
+        <Route path="/garzon">
+          <GarzonPage />
+        </Route>
+        <Route path="/">
+          <MainPage />
+        </Route>
+      </Switch>
+    </Router>
+  );
 }
-
 
 export default App;
