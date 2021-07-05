@@ -1,0 +1,119 @@
+.comandaContainer{
+    display: flex;
+    flex-flow: column nowrap;
+    width:100%;
+    height: 100vh;
+    background-image: url(../images/woodBG.jpg);
+    background-size: cover;
+}
+    .comandaHeader{
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+        padding: 2%;
+    }
+        .comandaMiniLogo{
+            width: 15%;
+            border-radius: 100%;
+            border: 4px solid white;
+            margin: 1%;
+            height: 80%;   
+        }
+        .mainTitleComanda{
+            color: white;
+            font-size: 5vw  ;
+            font-family: Aleo-Bold;
+        }
+        .comandaReturnArrow{
+            width: 8%;
+            height: 6vh;
+            margin: 2% 1% 0% 1%;
+        }
+    .menuContainer{
+        display: flex;
+        flex-flow: row nowrap;
+        margin: 3%;
+
+    }
+        .dishesList{
+            background-color: white;
+            border-radius: 7px;
+            width: 50%;
+            margin: 0% 0.5% 0% 0%;
+
+        }
+        .buttonsDiv{
+            display: flex;
+            flex-flow: row nowrap;
+            width: 100%;
+        }
+            .menuBttn{
+                display: flex;
+                justify-content: center;
+                width: 50%;
+                padding: 5%;
+                font-family: Aleo-Bold;
+                font-size: 2.8vw;
+                background-color: #A43030;
+                color: white;
+            }
+            .menuBttn:hover{
+                background-color: white;
+                color: black;
+            }
+        .itemByItem{
+            display: flex;
+            flex-flow: column nowrap;
+            margin: 0% 3%;
+        }
+            .groupTitle{
+                font-family: Aleo-Bold;
+                font-size: 2.8vw;
+                margin-bottom: 1%;
+            }
+            .line{
+                width: 90%;
+                margin-bottom: 0.7%;
+            }
+            .item{
+                display: flex;
+                flex-flow: row nowrap;
+                justify-content: space-between;
+                align-items: center ;
+                border: 1px solid #A43030;
+                border-radius: 10px;
+                margin: 1% 1%;
+                padding: 0% 3%;
+                height: 5vh;
+            }
+                .itemTitle{
+                    font-family: Aleo-Regular;
+                    font-size: 2.8vw;
+                    margin: 0%;
+                    height: 3vh;
+                }    
+        
+        .orderList{
+            background-color: white;
+            border-radius: 7px;
+            width: 50%;
+            margin: 0% 0% 0% 0.5%;
+        }
+            .orderListTitleDiv{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: #A43030;
+                height: 7vh;
+            }
+                .orderListTitle{
+                    font-family: Aleo-Bold;
+                    font-size: 3.5vw;
+                    color: white;
+                    margin: 0%;
+                   
+                   
+                }   
+        
+        
+        

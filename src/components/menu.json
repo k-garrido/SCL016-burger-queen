@@ -1,6 +1,7 @@
 {
   "bebestibles": [{
       "id": 1,
+      "category": "cocktail",
       "name": "Pisco Sour y variedades",
       "price": 3500,
       "option": [{
@@ -19,31 +20,37 @@
     },
     {
       "id": 2,
+      "category": "cocktail",
       "name": "Mojito",
       "price": 3500
     },
     {
       "id": 3,
+      "category": "cocktail",
       "name": "Sangria",
       "price": 3200
     },
     {
       "id": 4,
+      "category": "otherDrinks",
       "name": "Schop 500 CC",
       "price": 3500
     },
     {
       "id": 5,
+      "category": "otherDrinks",
       "name": "Copa de Vino Reserva",
       "price": 3000
     },
     {
       "id": 6,
+      "category": "otherDrinks",
       "name": "Botella de Vino Reserva",
       "price": 10000
     },
     {
       "id": 7,
+      "category": "otherDrinks",
       "name": "Bebidas",
       "price": 1600,
       "option": [{
@@ -62,20 +69,24 @@
     },
     {
       "id": 8,
+      "category": "otherDrinks",
       "name": "Jugo Natural",
       "price": 2800
     },
     {
       "id": 9,
+      "category": "otherDrinks",
       "name": "Agua Mineral",
       "price": 1200
     },
     {
       "id": 10,
+      "category": "otherDrinks",
       "name": "Café",
       "price": 1800
     }, {
       "id": 11,
+      "category": "otherDrinks",
       "name": "Té",
       "price": 1200
     }
@@ -83,51 +94,61 @@
   ],
   "comida": [{
       "id": 12,
+      "category": "starter",
       "name": "Ostiones a la parmesana",
       "price": 9500
     },
     {
       "id": 13,
+      "category": "starter",
       "name": "Ceviche",
       "price": 9900
     },
     {
       "id": 14,
+      "category": "starter",
       "name": "Camarones al Pil Pil",
       "price": 9500
     },
     {
       "id": 15,
+      "category": "main",
       "name": "Filete Meridian",
       "price": 13500
     },
     {
       "id": 16,
+      "category": "main",
       "name": "Lomo Valdiviano",
       "price": 11900
     },
     {
       "id": 17,
+      "category": "main",
       "name": "Mechada de la abuela",
       "price": 9800
     },
     {
       "id": 18,
+      "category": "main",
       "name": "Salmón a la Vasca",
       "price": 9800
     },
     {
       "id": 19,
+      "category": "sideDish",
       "name": "Papas Bravas",
       "price": 3500
     },
     {
       "id": 20,
+      "category": "sideDish",
       "name": "Papas Finas Hierbas",
       "price": 2500
     },
     {
       "id": 21,
+      "category": "sideDish",
       "name": "Ensaladas",
       "price": 2500
     }
