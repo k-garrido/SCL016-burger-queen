@@ -94,6 +94,8 @@
                 }    
         
         .orderList{
+            display: flex;
+            flex-flow: column nowrap;
             background-color: white;
             border-radius: 7px;
             width: 50%;
@@ -110,10 +112,46 @@
                     font-family: Aleo-Bold;
                     font-size: 3.5vw;
                     color: white;
-                    margin: 0%;
-                   
-                   
-                }   
+                    margin: 0%;   
+                }
+            .itemsSelected{
+                height: 60vh;
+            }
+                .dishesDiv{
+                    display: flex;
+                    flex-flow: row nowrap;
+                    justify-content:space-between;
+                    align-items: center;
+                    margin: 1%;
+                    font-family: Aleo-Bold;
+                    font-size: 100%;
+                    height: 4vh;
+                }
+                    .plusAndLessDiv{
+                        display: flex;
+                        flex-flow: row nowrap;
+                        justify-content: space-between;
+                        width: 20%;
+                        height: 2.8vh;
+                        
+                    }                                                                                                                                                                                                                                                                      
         
-        
-        
+                        .lessImg{
+                            width: 40%;
+                        
+                        }
+                    .quantity{
+                        margin: 0;
+                        width: 10%;
+                        height:fit-content;   
+                    }
+                    .dish{
+                        margin: 0;
+                        width: 40%;
+                        height:fit-content; 
+                    }
+                    .price{
+                        margin: 0;
+                        width: 20%;
+                        height:fit-content; 
+                    }

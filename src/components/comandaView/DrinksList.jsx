@@ -11,13 +11,13 @@ function DrinksList(props) {
 
   // Recorriendo el array de cada grupo y generando el div de cada item.
   const cocktailsList = cocktails.map((item) => (
-    <div key={item.id} onClick={props.function} className="item">
+    <div key={item.id} onClick={props.function} className="item" id={item.name}>
       <p className="itemTitle">{item.name}</p>
       <p className="itemTitle"> ${item.price}</p>
     </div>
   ));
   const otherDrinksList = otherDrinks.map((item) => (
-    <div key={item.id} onClick={props.function} className="item">
+    <div key={item.id} onClick={props.function} className="item" id={item.name}>
       <p className="itemTitle">{item.name}</p>
       <p className="itemTitle"> ${item.price}</p>
     </div>

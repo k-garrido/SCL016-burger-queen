@@ -2,6 +2,7 @@
   "bebestibles": [{
       "id": 1,
       "category": "cocktail",
+      "quantity": 1,
       "name": "Pisco Sour y variedades",
       "price": 3500,
       "option": [{
@@ -21,36 +22,42 @@
     {
       "id": 2,
       "category": "cocktail",
+      "quantity": 1,
       "name": "Mojito",
       "price": 3500
     },
     {
       "id": 3,
       "category": "cocktail",
+      "quantity": 1,
       "name": "Sangria",
       "price": 3200
     },
     {
       "id": 4,
       "category": "otherDrinks",
+      "quantity": 1,
       "name": "Schop 500 CC",
       "price": 3500
     },
     {
       "id": 5,
       "category": "otherDrinks",
+      "quantity": 1,
       "name": "Copa de Vino Reserva",
       "price": 3000
     },
     {
       "id": 6,
       "category": "otherDrinks",
+      "quantity": 1,
       "name": "Botella de Vino Reserva",
       "price": 10000
     },
     {
       "id": 7,
       "category": "otherDrinks",
+      "quantity": 1,
       "name": "Bebidas",
       "price": 1600,
       "option": [{
@@ -70,23 +77,27 @@
     {
       "id": 8,
       "category": "otherDrinks",
+      "quantity": 1,
       "name": "Jugo Natural",
       "price": 2800
     },
     {
       "id": 9,
       "category": "otherDrinks",
+      "quantity": 1,
       "name": "Agua Mineral",
       "price": 1200
     },
     {
       "id": 10,
       "category": "otherDrinks",
+      "quantity": 1,
       "name": "Café",
       "price": 1800
     }, {
       "id": 11,
       "category": "otherDrinks",
+      "quantity": 1,
       "name": "Té",
       "price": 1200
     }
@@ -95,60 +106,70 @@
   "comida": [{
       "id": 12,
       "category": "starter",
+      "quantity": 1,
       "name": "Ostiones a la parmesana",
       "price": 9500
     },
     {
       "id": 13,
       "category": "starter",
+      "quantity": 1,
       "name": "Ceviche",
       "price": 9900
     },
     {
       "id": 14,
       "category": "starter",
+      "quantity": 1,
       "name": "Camarones al Pil Pil",
       "price": 9500
     },
     {
       "id": 15,
       "category": "main",
+      "quantity": 1,
       "name": "Filete Meridian",
       "price": 13500
     },
     {
       "id": 16,
       "category": "main",
+      "quantity": 1,
       "name": "Lomo Valdiviano",
       "price": 11900
     },
     {
       "id": 17,
       "category": "main",
+      "quantity": 1,
       "name": "Mechada de la abuela",
       "price": 9800
     },
     {
       "id": 18,
       "category": "main",
+      "quantity": 1,
       "name": "Salmón a la Vasca",
       "price": 9800
     },
     {
       "id": 19,
       "category": "sideDish",
+      "quantity": 1,
       "name": "Papas Bravas",
       "price": 3500
     },
     {
       "id": 20,
       "category": "sideDish",
+      "quantity": 1,
       "name": "Papas Finas Hierbas",
       "price": 2500
     },
     {
       "id": 21,
       "category": "sideDish",
+      "quantity": 1,
       "name": "Ensaladas",
       "price": 2500
     }

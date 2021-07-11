@@ -12,19 +12,19 @@ function FoodList(props) {
 
   // Recorriendo el array de cada grupo y generando el div de cada item.
   const starterList = starter.map((item) => (
-    <div key={item.id} onClick={props.function} className="item">
+    <div key={item.id} onClick={props.function} className="item" id={item.name}>
       <p className="itemTitle">{item.name}</p>
       <p className="itemTitle"> ${item.price}</p>
     </div>
   ));
   const mainList = main.map((item) => (
-    <div key={item.id} onClick={props.function} className="item">
+    <div key={item.id} onClick={props.function} className="item" id={item.name}>
       <p className="itemTitle">{item.name}</p>
       <p className="itemTitle"> ${item.price}</p>
     </div>
   ));
   const sideDishList = sideDish.map((item) => (
-    <div key={item.id} onClick={props.function} className="item">
+    <div key={item.id} onClick={props.function} className="item" id={item.name}>
       <p className="itemTitle">{item.name}</p>
       <p className="itemTitle"> ${item.price}</p>
     </div>
